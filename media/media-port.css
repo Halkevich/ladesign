@@ -1,0 +1,581 @@
+@media (max-width:1440px) {
+    .main {
+        max-width: 100%;
+        height: 600px;
+    }
+
+    .main_wrapper {
+        height: 400px;
+    }
+
+    .screen {
+        height: 610px;
+    }
+
+
+    .team {
+        max-width: 100%;
+        height: 920px;
+    }
+
+    .wrapper_team {
+        max-width: 930px;
+        height: 625px;
+    }
+
+    .content {
+        max-width: 1200px;
+        height: 454px;
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 40px;
+    }
+
+
+    .portfolio {
+        height: 2881px;
+    }
+
+    .conteiner {
+        width: 678px;
+        height: 2464px;
+        padding: 40px;
+    }
+
+    .text h2 {
+        font-size: 30px;
+    }
+
+
+    .foto10 {
+        grid-column: 1/ 3;
+    }
+
+
+    .foto3 {
+        grid-column: 2/2;
+    }
+
+
+    .foto6 {
+        grid-column: 1/ 3;
+        grid-row: 5/ 5;
+    }
+
+    .foto8 {
+        grid-column: 1;
+    }
+
+
+    .foto4 {
+        grid-column: 1;
+    }
+
+
+}
+
+@media (max-width:1024px) {
+    .main {
+        max-width: 100%;
+        height: 600px;
+    }
+
+    .main_wrapper {
+        height: 400px;
+
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+
+    .menu__btn {
+        display: flex;
+        align-items: center;
+        position: fixed;
+        top: 20px;
+        left: 286px;
+        width: 26px;
+        height: 26px;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+    .box_header {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        margin-bottom: 40px;
+        padding: 15px;
+    }
+
+    .menu__box {
+        padding: 15px 0;
+    }
+
+    #menu__toggle:checked~.menu__box {
+        visibility: visible;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+
+
+
+    .project a {
+        font-size: 30px;
+    }
+
+
+    .portfolio {
+        height: 2881px;
+    }
+
+    .conteiner {
+        width: 678px;
+        height: 2464px;
+        padding: 40px;
+    }
+
+    .text h2 {
+        font-size: 30px;
+    }
+
+
+    .foto10 {
+        grid-column: 1/ 3;
+    }
+
+
+    .foto3 {
+        grid-column: 2/2;
+    }
+
+
+    .foto6 {
+        grid-column: 1/ 3;
+        grid-row: 5/ 5;
+    }
+
+    .foto8 {
+        grid-column: 1;
+    }
+
+
+    .foto4 {
+        grid-column: 1;
+    }
+
+
+}
+
+@media (max-width:768px) {
+    .main {
+        max-width: 100%;
+        height: 600px;
+    }
+
+    .header {
+        height: 77px;
+    }
+
+    .nav_bar {
+        width: 256px;
+        height: 35px;
+    }
+
+    .nav_bar {
+        display: none;
+    }
+
+
+
+    .main_wrapper {
+        min-width: 320px;
+        justify-content: center;
+        height: 400px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .title_text h1 {
+        font-size: 80px;
+    }
+
+    .team {
+        max-width: 100%;
+        height: 1410px;
+    }
+
+    .wrapper_team {
+        max-width: 678px;
+        height: 1210px;
+    }
+
+    .accordion {
+        height: 851px;
+    }
+
+    .content {
+        max-width: 768px;
+        height: 910px;
+        flex-direction: column;
+    }
+
+
+
+
+
+    .portfolio {
+        max-width: 100%;
+        height: 3379px;
+    }
+
+
+
+    .conteiner {
+        width: 324px;
+        height: 3034px;
+        padding: 40px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .project a {
+        font-size: 20px;
+    }
+
+    .text h2 {
+        font-size: 30px;
+    }
+
+
+    .foto10 {
+        grid-column: 1/ 3;
+    }
+
+
+    .foto3 {
+        grid-column: 2/2;
+    }
+
+
+    .foto6 {
+        grid-column: 1/ 2;
+        grid-row: 5/ 5;
+    }
+
+    .foto8 {
+        grid-column: 1;
+    }
+
+    .foto9 {
+        grid-column: 1;
+    }
+
+
+    .foto2 {
+        grid-column: 1;
+    }
+
+    .foto5 {
+        grid-column: 1;
+    }
+
+    .foto3 {
+        grid-column: 1;
+    }
+
+
+    .foto7 {
+        grid-column: 1/2;
+    }
+
+    .foto4 {
+        grid-column: 1;
+    }
+
+
+    .foto10 {
+        grid-column: 1/ 2;
+    }
+
+    .pop_up_body {
+        width: 400px;
+        height: 432px;
+        padding: 25px;
+    }
+
+    .pop__body {
+
+        width: 400px;
+        height: 365px;
+
+        padding: 25px;
+
+    }
+}
+
+
+
+
+@media (max-width:425px) {
+    .main {
+        max-width: 100%;
+        height: 564px;
+    }
+
+
+
+    .main_wrapper {
+        min-width: 280px;
+        height: 377px;
+    }
+
+    .header_wrapper {
+        justify-content: flex-start;
+        gap: 15px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .screen {
+        height: 396px;
+    }
+
+    .title_text h1 {
+        font-size: 60px;
+    }
+
+    .description h4 {
+        margin-bottom: 48px;
+        font-size: 14px;
+    }
+
+
+    .arrow_down {
+        height: 60px;
+    }
+
+
+    .team {
+        max-width: 100%;
+        height: 1407px;
+    }
+
+    .wrapper_team {
+        max-width: 678px;
+        height: 1210px;
+    }
+
+    .accordion {
+        height: 851px;
+    }
+
+    .content {
+        max-width: 768px;
+        height: 936px;
+        flex-direction: column;
+    }
+
+    .wrapper_team {
+        padding: 29px;
+    }
+
+    .text h2 {
+        font-size: 20px;
+    }
+
+    .benefis_description p {
+        font-size: 15px;
+    }
+
+
+
+    .portfolio {
+        max-width: 100%;
+        height: 3379px;
+    }
+
+
+
+    .conteiner {
+        width: 278px;
+        height: 3034px;
+        padding: 0;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .project a {
+        font-size: 15px;
+    }
+
+    .text h2 {
+        font-size: 30px;
+    }
+
+
+    .foto10 {
+        grid-column: 1/ 3;
+    }
+
+
+    .foto3 {
+        grid-column: 2/2;
+    }
+
+
+    .foto6 {
+        grid-column: 1/ 2;
+        grid-row: 5/ 5;
+    }
+
+    .foto8 {
+        grid-column: 1;
+    }
+
+    .foto9 {
+        grid-column: 1;
+    }
+
+
+    .foto2 {
+        grid-column: 1;
+    }
+
+    .foto5 {
+        grid-column: 1;
+    }
+
+    .foto3 {
+        grid-column: 1;
+    }
+
+
+    .foto7 {
+        grid-column: 1/2;
+    }
+
+    .foto4 {
+        grid-column: 1;
+    }
+
+
+    .foto10 {
+        grid-column: 1/ 2;
+    }
+
+
+    .action {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pop_up_body {
+        max-width: 320px;
+        height: 300px;
+        padding: 22px;
+    }
+
+    .pop_up_body h3 {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .pop_up_body p {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .pop__up button {
+        height: 51px;
+    }
+
+    .pop_up_close {
+        top: -37px;
+        right: 4px;
+    }
+
+    .pop_up_body input {
+        width: 194px;
+    }
+
+    .pop_up_body {
+        max-width: 320px;
+        height: 300px;
+        padding: 22px;
+    }
+
+    .pop_up_body h3 {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .pop_up_body p {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .pop__up button {
+        height: 51px;
+    }
+
+    .pop_up_close {
+        top: -37px;
+        right: 4px;
+    }
+
+    .pop_up_body input {
+        width: 194px;
+    }
+
+
+}
+
+
+@media (max-width:320px) {
+
+    .text h2 {
+        font-size: 25px;
+    }
+
+    .pop__body {
+        width: 300px;
+        height: 365px;
+
+        padding: 25px;
+
+    }
+
+    .pop__body h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .pop__body p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .social_conts a {
+        font-size: 10px;
+    }
+
+
+    .button {
+        width: 261px;
+    }
+}
