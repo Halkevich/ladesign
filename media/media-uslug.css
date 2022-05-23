@@ -2,7 +2,7 @@
 
 
     .main_use {
-        height: 1161px;
+        height: 1042px;
     }
 
     .use_content {
@@ -77,6 +77,13 @@
 @media (max-width:768px) {
 
 
+    .down {
+        display: none;
+    }
+
+
+
+
     .nav_bar {
         width: 256px;
         height: 35px;
@@ -131,6 +138,10 @@
         margin-bottom: 30px;
     }
 
+    .disaign.active {
+        height: 1486px;
+    }
+
     .block_slide {
         max-width: 768px;
         justify-content: space-between;
@@ -139,6 +150,27 @@
         flex-direction: column;
         align-items: center;
     }
+
+
+
+
+    .disaign {
+        max-width: 1440px;
+        height: 733px;
+        margin: 0 auto;
+    }
+
+
+    .pop_up_body h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .pop__body {
+        width: 372px;
+        height: 393px;
+    }
+
 }
 
 
@@ -206,7 +238,7 @@
     }
 
     .pop_up_body {
-        max-width: 320px;
+        max-width: 294px;
         height: 300px;
         padding: 22px;
     }
@@ -235,7 +267,7 @@
     }
 
     .main_use {
-        height: 1361px;
+        height: 1256px;
     }
 
     .desc_slide {
@@ -256,6 +288,17 @@
     .my-slider {
 
         margin: 13px;
+    }
+
+
+    .pop_up_body h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .pop__body {
+        width: 372px;
+        height: 393px;
     }
 
 }

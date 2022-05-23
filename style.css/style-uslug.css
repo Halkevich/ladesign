@@ -231,6 +231,7 @@ img {
     max-width: 1440px;
     height: 935px;
     margin: 0 auto;
+    padding: 15px;
 }
 
 .use_wrapper {
@@ -332,6 +333,7 @@ img {
 .disaign_inter {
     max-width: 1200px;
     height: 720px;
+    padding: 15px;
 
 }
 
@@ -356,7 +358,7 @@ img {
 
 .block_slide {
     max-width: 1200px;
-    height: 187px;
+    height: 545px;
     display: flex;
     justify-content: space-evenly;
     position: relative;
@@ -474,10 +476,28 @@ img {
     text-transform: uppercase;
 
     color: #000;
-    /* position: absolute; */
 
 }
 
+.button_butt {
+    width: 223px;
+    height: 39px;
+    background-color: #fff;
+    font-family: 'Roboto Condensed';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+
+    color: #000;
+
+}
 
 .button:hover {
     background: #393246;
@@ -493,7 +513,10 @@ img {
     justify-content: space-around;
 }
 
+
+
 .button_down {
+
     width: 200px;
     display: flex;
     justify-content: space-evenly;
@@ -506,10 +529,10 @@ img {
     line-height: 16px;
     letter-spacing: 0.15em;
     text-transform: uppercase;
-
-
     color: #777777;
 }
+
+
 
 /*====================slider========================*/
 .slider {
@@ -522,6 +545,8 @@ img {
     max-width: 1200px;
     height: 506px;
     margin: 0 auto;
+
+    padding: 20px;
 }
 
 .desc_slide {
@@ -878,6 +903,7 @@ input {
     margin: 0 auto;
     max-width: 1200px;
     height: 250px;
+    padding: 10px;
 }
 
 .social {

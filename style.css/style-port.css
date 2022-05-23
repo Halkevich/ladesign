@@ -845,7 +845,7 @@ input {
 .button_down {
     display: flex;
     gap: 34px;
-    align-items: center;
+    align-items: stretch;
 }
 
 .pop_up_close {

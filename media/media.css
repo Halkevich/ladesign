@@ -101,7 +101,7 @@
         align-items: center;
         position: fixed;
         top: 20px;
-        left: 286px;
+        left: 315px;
         width: 26px;
         height: 26px;
         cursor: pointer;
@@ -572,5 +572,18 @@
 
     .social_conts a {
         font-size: 10px;
+    }
+
+
+    .menu__btn {
+        display: flex;
+        align-items: center;
+        position: fixed;
+        top: 20px;
+        left: 296px;
+        width: 26px;
+        height: 26px;
+        cursor: pointer;
+        z-index: 1;
     }
 }

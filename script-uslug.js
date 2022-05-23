@@ -3,6 +3,7 @@ let blok = document.querySelector('.block_slide')
 let accord = document.querySelectorAll('.accordion')
 let bth = document.querySelectorAll('.button')
 let content = document.querySelectorAll('.bass_content')
+let disaign = document.querySelector('.disaign')
 
 
 button.addEventListener('click', (e) => {
@@ -20,12 +21,22 @@ button.addEventListener('click', (e) => {
         bth[i].classList.toggle('active')
     }
 
+    for (let i = 0; i < disaign.length; i++) {
+        disaign[i].classList.toggle('active')
+    }
+
 
 
     blok.classList.toggle('active')
     console.log(blok)
 
 })
+
+
+
+
+
+
 
 
 
@@ -132,3 +143,6 @@ const slider = function (className) {
 }
 
 slider('.my-slider')
+
+
+

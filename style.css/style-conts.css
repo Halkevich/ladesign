@@ -678,7 +678,7 @@ input {
 .social {
     display: flex;
     justify-content: center;
-    padding: 95px;
+    padding: 84px;
     flex-direction: column;
     align-content: center;
     align-items: center;
