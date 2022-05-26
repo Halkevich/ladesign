@@ -1,15 +1,45 @@
-let button = document.querySelector('.button_down')
+
+
+/*======================Menu-Slider-768================================= */
+let button = document.querySelector('.button_down_hight')
 let blok = document.querySelector('.block_slide')
 let accord = document.querySelectorAll('.accordion')
 let bth = document.querySelectorAll('.button')
 let content = document.querySelectorAll('.bass_content')
-let disaign = document.querySelector('.disaign')
 
+let disaign = document.querySelector('.disaign')
+let buttonEVERY = document.querySelectorAll('#every')
+let idDisign = document.querySelector('#disaign')
+
+
+for (let i = 0; i < buttonEVERY.length; i++) {
+
+    buttonEVERY[i].addEventListener('click', () => {
+        disaign.classList.toggle('active2Design')
+        blok.classList.toggle('active')
+        idDisign.classList.toggle('active3blocslider')
+
+        for (let j = 0; j < accord.length; j++) {
+            accord[j].classList.toggle('active')
+        }
+        for (let q = 0; q < content.length; q++) {
+            content[q].classList.toggle('active')
+        }
+        for (let w = 0; w < bth.length; w++) {
+            bth[w].classList.toggle('active')
+        }
+    })
+}
+
+
+
+/*======================Menu-Slider-1440================================= */
 
 button.addEventListener('click', (e) => {
     e.preventDefault()
     for (let i = 0; i < accord.length; i++) {
         accord[i].classList.toggle('active')
+
     }
 
 
@@ -33,18 +63,10 @@ button.addEventListener('click', (e) => {
 })
 
 
-
-
-
-
-
-
-
-
 const btn = document.querySelector('.button_down > span');
 btn.addEventListener('click', function () {
     btn.innerHTML =
-        (btn.innerHTML === 'свернуть') ? btn.innerHTML = 'развернуть' : btn.innerHTML = 'свернуть';
+        (btn.innerHTML === 'развернуть') ? btn.innerHTML = 'свернуть' : btn.innerHTML = 'развернуть';
 })
 
 

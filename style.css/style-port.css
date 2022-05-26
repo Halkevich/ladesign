@@ -519,14 +519,10 @@ input {
 }
 
 .pop__close {
-    position: absolute;
-    /* width: 18px; */
-    /* height: 18px; */
-    top: -53px;
-    right: -13px;
-    font-size: 40px;
-    cursor: pointer;
-    color: #fff;
+
+    top: -32px;
+    right: 2px;
+
 }
 
 .social_conts a {
@@ -818,18 +814,11 @@ input {
 
 
 .pop_up button {
-    cursor: pointer;
-    display: block;
-    width: 228px;
-    height: 60px;
-    background: #393246;
-    border: 1px solid #393246;
-    color: #fff;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
+    width: 262px;
+    height: 40px;
+    font-size: 10px;
 }
+
 
 .pop_up_body p {
     width: 309px;

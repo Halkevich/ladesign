@@ -528,9 +528,9 @@
     }
 
     .pop_up_body {
-        max-width: 320px;
-        height: 300px;
-        padding: 22px;
+        max-width: 293px;
+        height: 277px;
+        padding: 8px;
     }
 
     .pop_up_body h3 {
@@ -594,7 +594,7 @@
         align-items: center;
         position: fixed;
         top: 20px;
-        left: 296px;
+        left: 281px;
         width: 26px;
         height: 26px;
         cursor: pointer;
