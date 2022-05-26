@@ -319,10 +319,14 @@
 
     .pop__body {
         width: 301px;
-        height: 365px;
+        height: 416px;
 
         padding: 25px;
 
+    }
+
+    .social_conts a {
+        font-size: 10px;
     }
 }
 
@@ -544,6 +548,21 @@
 
 }
 
+@media (max-width:375px) {
+    .social_conts {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .pop__body {
+        width: 308px;
+        height: 418px;
+    }
+
+    .social_conts a {
+        font-size: 10px;
+    }
+}
 
 @media (max-width:320px) {
 

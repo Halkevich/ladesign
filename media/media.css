@@ -319,7 +319,7 @@
 
     .pop__body {
 
-        width: 400px;
+        width: 379px;
         height: 365px;
 
         padding: 25px;
@@ -328,7 +328,21 @@
 }
 
 
+@media (max-width:375px) {
+    .social_conts {
+        display: flex;
+        justify-content: space-between;
+    }
 
+    .pop__body {
+        width: 308px;
+        height: 418px;
+    }
+
+    .social_conts a {
+        font-size: 10px;
+    }
+}
 
 @media (max-width:425px) {
     .main {
@@ -585,5 +599,11 @@
         height: 26px;
         cursor: pointer;
         z-index: 1;
+    }
+
+
+    .pop__close {
+        top: -46px;
+        right: 6px;
     }
 }

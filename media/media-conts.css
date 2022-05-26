@@ -116,7 +116,10 @@
 
     .info {
         max-width: 425px;
-        height: 1245px;
+        height: 1086px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
     .info_input {
@@ -163,5 +166,15 @@
 
     .button_ok_conts {
         height: 38px;
+    }
+
+
+    .location {
+        width: 240px;
+        height: 101px;
+    }
+
+    .des_form h3 {
+        font-size: 20px;
     }
 }
