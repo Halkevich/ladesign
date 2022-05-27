@@ -69,10 +69,12 @@
                             <p>Мы всегда рады ответить на интересующие вас вопросы. Заполните форму и наш специалист
                                 свяжется с вами.</p>
                         </div>
-                        <legend>Ваше имя</legend>
-                        <input class="info_input" type="text" placeholder="Александр">
-                        <input class="info_input" type="email" placeholder="Ваш email">
-                        <input class="info_input" type="text" placeholder="Ваш вопрос">
+                        <form action="">
+                            <legend>Ваше имя</legend>
+                            <input class="info_input" type="text" placeholder="Александр" required="required">
+                            <input class="info_input" type="email" placeholder="Ваш email" required="required">
+                            <input class="info_input" type="text" placeholder="Ваш вопрос" required="required">
+                        </form>
                         <div class="file">
                             <img src="image/icon_Attach file.svg">
                             <h3>Прикрепить файл</h3>
@@ -106,8 +108,6 @@
                             </div>
                         </div>
                     </div>
-
-
                     <div class="pop_up">
                         <div class="pop_up_container">
                             <div class="pop_up_body" id="pop_up_body">
@@ -131,9 +131,6 @@
                 </div>
             </div>
         </section>
-
-
-
         <footer class="footer">
             <div class="footer_wrapper">
                 <div class="social">

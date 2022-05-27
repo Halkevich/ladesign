@@ -14,7 +14,8 @@ let idDisign = document.querySelector('#disaign')
 
 for (let i = 0; i < buttonEVERY.length; i++) {
 
-    buttonEVERY[i].addEventListener('click', () => {
+    buttonEVERY[i].addEventListener('click', (e) => {
+        e.preventDefault()
         disaign.classList.toggle('active2Design')
         blok.classList.toggle('active')
         idDisign.classList.toggle('active3blocslider')

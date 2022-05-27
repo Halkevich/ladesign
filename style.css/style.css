@@ -308,7 +308,7 @@ body {
 
 .team {
     max-width: 1440px;
-    height: 1087px;
+    height: 1158px;
     margin: 0 auto;
 
 }
@@ -316,7 +316,7 @@ body {
 
 .wrapper_team {
     max-width: 1200px;
-    height: 1087px;
+    height: 1158px;
     margin: 0 auto;
     padding: 40px;
 
@@ -652,8 +652,8 @@ body {
     font-family: 'Roboto Condensed';
     text-align: left;
     font-weight: 300;
-    font-size: 30px;
-    line-height: 45px;
+    font-size: 25px;
+    line-height: 30px;
     letter-spacing: 0.08em;
     text-transform: uppercase;
     color: #777777;
@@ -690,7 +690,7 @@ input {
     cursor: pointer;
     display: block;
     width: 228px;
-    height: 60px;
+    height: 40px;
     background: #393246;
     border: 1px solid #393246;
     color: #fff;
@@ -761,7 +761,7 @@ input {
     height: 394px;
     background-color: #fff;
     text-align: center;
-    padding: 50px;
+    padding: 12px;
     position: relative;
 
 }
